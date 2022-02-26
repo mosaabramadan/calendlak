@@ -1,0 +1,22 @@
+/* @font-face {
+  font-family: "CenturyGothic";
+  src: local("CenturyGothic"),
+   url(~assets/fonts/CenturyGothic.ttf) format("truetype");
+}
+
+html
+{
+  overflow-y: hidden !important;
+  font-family: "CenturyGothic";
+} */
+
+
+.hidescroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: auto !important;
+  -webkit-overflow-scroll: touch;
+}
+.hidescroll::-webkit-scrollbar {
+  display: none;
+}
